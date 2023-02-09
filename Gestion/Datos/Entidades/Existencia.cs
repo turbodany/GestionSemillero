@@ -10,7 +10,6 @@ namespace Gestion.Datos.Entidades
         public long CEntra { get; set; }
         public long CSale { get; set; }
         public long Saldo { get; set; }
-        public int ProductoId { get; set; }
 
         [NotMapped]
         public List<Producto> Productos { get; set; }
